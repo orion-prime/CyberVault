@@ -240,7 +240,8 @@ containerized deployment. For local development, inspect the respective
 package and Python dependency files and keep the API base URL aligned
 with the environment in which the browser runs.
 
+
 ## License
 
-No license is specified in this repository yet. Add a `LICENSE` file
-before distributing the project as open source.
+CyberVault is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
