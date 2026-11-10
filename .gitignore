@@ -1,0 +1,65 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+
+# Node.js / React / Vite
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Evidence files and generated forensic artifacts
+storage/
+evidence/
+uploads/
+reports/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+
+# Logs
+*.log
+logs/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker overrides
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
